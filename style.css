@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(199, 223, 244);
+}
+
+#inputBox{
+    width: 300px;
+    /* height: 20px; */
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(241, 215, 183);
+    margin:auto;
+    box-sizing: border-box;
+    /* height: 15 px; */
+    /* width: 40 px; */
+    text-align: center;
+    font-family: serif;
+    border: none;
+    /* margin-left: auto; */
+    /* margin: right 5px; */
+}
+#inputBox::placeholder{
+    
+    padding: 20 px;
+}
+#inputbox:hover{
+    background-color: blue;
+}
+#heading{
+    font-family: cursive;
+    text-align: center;
+}
+#second{
+    text-align: center;
+}
+#outerbox{
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0px;
+    /* display: block; */
+    flex-direction: column;
+    background-color: white;
+    width: 1500px;
+   min-height: 200px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+}
+.divis{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.container{
+    position: relative;
+    display: flex;
+}
+#button{
+    size: 20px;
+    color: white;
+    height: 29px;
+    border-radius: 7px;
+    background-color: blue;
+    cursor: pointer;
+}
+li{
+    /* margin-top: 0; */
+    list-style: none;
+    font-family: Comic Sans MS;
+    position: relative;
+    padding: 20px;
+   border-bottom: 2px solid #ddd;
+   
+    
+}
+li:hover{
+    background-color: aliceblue;
+}
+li:last-child{
+    border-bottom: none;
+}
